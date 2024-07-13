@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRENDZEE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       *{
+        margin: 0px;
+        font-family: cursive;
+        
+       }
+       .navbar{
+        height: 103px;
+        width: 1600px;
+        
+        background-color: rgb(232, 90, 123);
+        border: solid rgb(234, 80, 80) 2px;
+        display: flex;
+        align-items: center;
+        justify-content: none;
+        color: white;
+       }
+     
+       .logo{
+        background-image: url("pic3.png");
+        height: 100px;
+        width: 300px;
+        background-size:cover;
+           }
+           .border{
+            border: 2px solid transparent;
+           }
+           .border:hover{
+            border: 1px solid white;
+           }
+           /* box 2 */
+           .deliver{
+            font-size: small;
+            color: white;
+            margin-left: 15px;
+
+           }
+           .india{
+            color: bisque;
+            margin-left: 5px;
+
+           }
+           .add-icon{
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+           }
+           /* box3 */
+           .nav-search{
+            margin-left: 10px;
+            display: flex;
+            background-color: rgb(255, 170, 0);
+            width: 600px;
+            height: 30px;
+            border-radius: 10px;
+           }
+           .search-select{
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: aliceblue;
+            text-align: center;
+            border: none;
+           }
+           .search-input{
+            width: 520px;
+            border: none;
+           
+           }
+           .search-icon{
+            align-items: center;
+            padding-left: 7px;
+            padding-top:5px ;
+           }
+           .nav-select{
+            font-size: 0.8rem;
+            color: white;
+           }
+           .cart-size i{
+            font-size: 20px;
+           }
+           .navbar-sign{
+            margin-left: 50px;
+           }
+           .navbar-orders{
+            margin-left: 50px;
+           }
+           .cart{
+            margin-left: 50px;
+            display: flex;
+           }
+           .nav-add{
+            margin-left: 50px;
+           }
+           .nav-search{
+            margin-left: 50px;
+           }
+           
+           /* panel */
+           .panel{
+            display: flex;
+            height: 40px;
+            background-color: rgb(180, 41, 41);
+            text-decoration: none;
+            text-align: center;
+            color:white;
+            padding-top: 10px;
+            
+           
+           }
+           a{
+            text-decoration: none;
+            color: white;
+            margin-left:30px ;
+           }
+          
+           .panel-deals{
+                
+                margin-left: 500px;
+                font-weight: 800;
+            }
+            /* hero section */
+                .hero-section{
+                    width: 100%;
+                    height: 400px;
+                    background-image: url("pic\ 1.avif");
+                    background-size: cover;
+                }
+                .hero-message{
+                    height: 40px;
+                    margin-left: 20px;
+                   position: relative;
+                   top: 50px;
+                    margin-right: 20px;
+                    background-color: rgb(251, 219, 248);
+                    color: rgb(142, 140, 140);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: black 3px solid;
+                    border-radius: 15px;
+                }
+                .hero-message a{
+                    color: blue;
+
+                }
+                /* shop-section */
+                .shopping-section{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    background-color: rgb(255, 155, 198);
+                    align-items: center;
+                }
+                
+                .box{
+                    height: 420px;
+                    border: transparent;
+                    width: 23%;
+                    background-color: white;
+                    margin-top: 15px;
+                    border-radius: 10px;
+                   
+                   
+                    
+                }
+                .box1-img{
+                    height: 350px;
+                    width: 300px;
+                    background-image: url('pic4.avif');
+                    background-size: cover;
+                    margin-left: 25px;
+                }
+                .box2-img{
+                    height: 350px;
+                    width: 300px;
+                    background-image: url('pic 5.avif');
+                    background-size: cover;
+                    margin-left: 25px;
+                }
+                .box3-img{
+                    height: 350px;
+                    width: 300px;
+                    background-image: url('pic8.avif');
+                    background-size: cover;
+                    margin-left: 25px;
+                }
+                .box4-img{
+                    height: 350px;
+                    width: 300px;
+                    background-image: url('pic9.avif');
+                    background-size: cover;
+                    margin-left: 25px;
+                   
+                }
+                .box5-img{
+                    height: 350px;
+                    width: 300px;
+                    background-image: url('pic7.avif');
+                    background-size: cover;
+                    margin-left: 25px;
+
+                }
+                .box6-img{
+                    height: 350px;
+                    width: 300px;
+                    background-image: url('pic10.avif');
+                    background-size: cover;
+                    margin-left: 25px;
+
+                }
+                .box7-img{
+                    height: 350px;
+                    width: 300px;
+                    background-image: url('pic12.avif');
+                    background-size: cover;
+                    margin-left: 25px;
+
+                }
+                .box8-img{
+                    height: 350px;
+                    width: 300px;
+                    background-image: url('pic13.avif');
+                    background-size: cover;
+                    margin-left: 25px;
+
+                }
+                .foot-panel1{
+                    height: 50px;
+                    background-color: rgb(255, 0, 98);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    font-weight: 700;
+                    font-size: 0.85rem;
+                }
+                .foot-panel2{
+                    display: flex;
+                    justify-content: space-evenly;
+                    color: rgb(79, 79, 79);
+                    background-color: rgb(238, 0, 255);
+                    
+                }
+                .foot-panel2 ul p{
+                    margin-top: 10px;
+                }
+                .panel-3{
+                    height: 150px;
+                    background-color:rgb(232, 90,123) ;
+                    margin-top: 1px;
+                    display: flex;
+                    justify-content: center;
+                    
+                    
+
+                }
+                .last-logo{
+                    height: 150px;
+                    width: 400px;
+                    background-image: url("pic3.png");
+                    background-size: cover;
+
+                }
+                .panel-4{
+                    height: 80px;
+                   
+                    display: flex;
+                    justify-content: center;
+                    background-color: rgb(245, 18, 71);
+                    align-items:center ;
+                    color: azure;
+
+                }
+               
+    </style>
+</head>
+<body>
+   <header>
+    <div class="navbar">
+        <div class="navbar2">
+            <div class="logo border"></div>
+             
+        </div>
+        <div class="nav-add border">
+            <p class="deliver">Deliver to</p>
+            <div class="add-icon">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p class="india">India</p>
+            </div>
+        </div>
+        <div class="nav-search border">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder="Search in TRENDZEE" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="navbar-sign border">
+            <p class="nav-select"><span>
+                Sign-in
+            </span>
+        </p>
+        
+            <p>
+                Accounts & Lists
+            </p>
+        </div>
+        <div class="navbar-orders border">
+            <p class="nav-select"><span>
+                Returns &
+            </span>
+        </p>
+        
+            <p>
+                Orders
+            </p>
+        </div>
+        <div class="cart border">
+           <div class="cart-size"><i class="fa-solid fa-cart-shopping"></i></div> 
+            Cart
+        </div>
+    </div>
+    <div class="panel">
+        
+        <div class="panel-ops">
+            <i class="fa-solid fa-bars "></i>
+        All
+            <a href="#"> Today's deal</a>
+            <a href="#"> Best Offers</a>
+            <a href="#"> Customer's Service</a>
+            <a href="#"> Gift vouchers</a>
+        </div>
+        <div class="panel-deals">
+           <a href="#">Deals for Trending Clothes & accessories</a> 
+        </div>
+    </div>
+   </header>
+   <div class="hero-section">
+     <div class="hero-message">
+        <p>You are in one of the best shopping website in India. Buy your favourite clothes with best prices and fast delivery. click here to go to <a href="#">trendzee.com</a>  </p>
+
+     </div >
+   </div>
+   <div class="shopping-section">
+    <div class="box1 box">
+        <h2 style="padding-left: 25px;">FEMALE'S WEARS</h2>
+        <div class="box1-img"></div>
+       <p style="padding-left: 25px;"> see more</p>
+    </div>
+    <div class="box2 box"> <h2 style="padding-left: 25px;">KID'S WEARS</h2>
+        <div class="box2-img"></div>
+       <p style="padding-left: 25px;"> see more</p></div>
+    <div class="box3 box"> <h2 style="padding-left: 25px;">CASUAL MEN'S WEARS</h2>
+        <div class="box3-img"></div>
+       <p style="padding-left: 25px;"> see more</p></div>
+    <div class="box4 box"> <h2 style="padding-left: 25px;">SHOES</h2>
+        <div class="box4-img"></div>
+       <p style="padding-left: 25px;"> see more</p></div>
+       <div class="box1 box">
+        <h2 style="padding-left: 25px;">EYE WEARS</h2>
+        <div class="box5-img"></div>
+       <p style="padding-left: 25px;"> see more</p>
+    </div>
+    <div class="box2 box"> <h2 style="padding-left: 25px;">WINTER WEARS</h2>
+        <div class="box6-img"></div>
+       <p style="padding-left: 25px;"> see more</p></div>
+    <div class="box3 box"> <h2 style="padding-left: 25px;">T-SHIRTS </h2>
+        <div class="box7-img"></div>
+       <p style="padding-left: 25px;"> see more</p></div>
+    <div class="box4 box"> <h2 style="padding-left: 25px;">INNER WEARS</h2>
+        <div class="box8-img"></div>
+       <p style="padding-left: 25px;"> see more</p></div>
+
+   </div>
+   <footer>
+    <div class="foot-panel1">
+        <a href="#">Back to top</a>
+    </div>
+    <div class="foot-panel2">
+        <ul>
+        <p style="font-weight: 800;">GET TO KNOW US</p> 
+        
+
+       <p>Careers</p> 
+       <p>Blog</p>
+       <p>About TRENDZEE</p>
+       <p>Investor Relations</p>
+       <p>TRENDZEE policy</p>
+       
+       
+        </ul>
+        <ul>
+            <p style="font-weight: 800;">MAKE MONEY WITH US</p>
+                <p>Sell products on TRENDZEE</p>
+                <p>Sell on Amazon Business</p>
+                <p>Sell apps on TRENDZEE</p>
+                <p>Become an Affiliate</p>
+                <p>Advertise Your Products</p>
+                <p>Self-Publish with Us</p>
+                <p>Host an TRENDZEE Hub</p>
+                <p>›See More Make Money with Us</p>
+        </ul> 
+        <ul>
+            <p style="font-weight: 800;">TRENDZEE PAYMENT PRODUCTS</p>
+            <p>TRENDZEE Business Card</p>
+            <p>Shop with Points</p>
+            <p>Reload Your Balance</p>
+        </ul>        
+    </div>
+   
+    <div class="panel-3">
+        <div class="last-logo">
+
+        </div>
+
+    </div>
+    <div class="panel-4">
+        <ul>
+        <p>Conditions of Use
+Privacy Notice
+Your Ads Privacy Choices</p>
+ <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+</ul>
+</div>
+   </footer>
+  
+</body>
+</html>
